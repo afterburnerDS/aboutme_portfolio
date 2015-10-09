@@ -1,0 +1,312 @@
+body {
+    /* Typography Declarations */
+    color: #white;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro,
+.projects-section, 
+.navigation
+                            {
+  text-align: center;
+}
+
+.navigation {
+
+  margin-top: -2em;
+}
+
+
+
+.navigation > a {
+
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  text-decoration: none;
+  margin-right: 0.2em;
+  color:black;
+
+}
+
+
+.masthead {
+    padding: 6em 0;
+    background-image: url(https://images.unsplash.com/photo-1433959352364-9314c5b6eb0b?q=80&fm=jpg&s=e3bfea02f099f5b8a177fa03f01fb46e);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.masthead-intro {
+  /* Layout Declarations */
+
+    margin-bottom: 0.1em;
+     /* Typography Declarations */
+   font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.masthead-heading {
+  /* Layout Declarations */
+    margin-top: -0.2em;
+  /* Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+  
+  .content-footer {
+    
+   font-size:0.7em;
+   
+  }
+
+  .navigation:
+}
+
+@media only screen and (max-width: 900px )  {
+   
+    .masthead-heading {
+       color:Grey;
+    }
+
+   
+}
+
+@media only screen and (max-width: 1315px) {
+   
+    .navigation > a {
+      color:Grey;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+   
+    .navigation > a {
+      color:black;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+   
+    .navigation > a {
+      color:Grey;
+    }
+}
+
+
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.introduction-section{
+
+  text-align: center;
+}
+
+
+
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.questions-section {
+
+
+}
+
+.questions-section > h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+   /* Layout */
+    margin: 2em 0 1em 0;
+
+}
+
+
+.projects-section {
+background-color: #3F537C;
+margin: 0 auto;
+min-height: 50px;
+color:white;
+}
+
+.projects-section h1 {
+
+      padding-top: 1em;
+}
+
+.projects-section .project {
+
+   width: 50%;
+  display:inline-block;
+
+  box-sizing: border-box;
+   height: 4em;
+    margin-right: -4px;
+    text-align: center;
+    padding-bottom: 23em;
+   }
+
+   @media only screen and (max-width: 423px) {
+   
+    .projects-section .project {
+       display: block;
+       margin:0 auto;
+    }
+  }
+
+    @media only screen and (max-width: 637px) {
+   
+    img  {
+      width:150px;
+      height:150px;
+    }
+
+    .projects-section .project{
+
+      padding-bottom: 16em;
+    }
+
+
+  }
+
+
+.social {
+  
+  position:relative;
+  margin-top: 5em;
+}
+
+.social > li {
+   display: inline-block;
+  position:relative;
+  margin-left:1em;
+  margin-top: 
+  
+  
+}
+
+.social > li  > a {
+  
+  
+  
+}
+
+.content-footer > p {
+    color: black;
+  position:relative;
+  top:2.5em;
+  margin-left:3.5em;
+   
+    
+}
+
+section > h1 {
+    margin-top: 2em;
+}
+
+.content-footer {
+  /* Red, Green, Blue: #RRGGBB */
+  background-color: white;
+ height:200px;
+}
+
+.cover {
+  
+  margin-top:-1.7em;
+  
+}
+
+.cover > a{
+  
+  
+}
+
+
+
+/* My attempt
+footer{
+  
+  background-color: grey;
+  text-align:center;
+  height:200px;
+  
+  
+}
+
+.list{
+  
+  position:relative;
+  top:55px;
+  color:white;
+  font-family:Helvetica;
+  
+}
+
+
+.line{
+  
+  margin-bottom:1em;
+}
+
+a {
+  
+  color:yellow;
+  margin-left:0.5em;
+  text-decoration: none;
+}
+
+*/
+
+
+/*
+
+header {
+  
+  background-image: url("https://unsplash.com/photos/CUwuO2mxTds/download");
+  height: 500px;
+    
+    text-align: center;
+  
+  font-family:Arial, Helvetica, sans-serif;
+  
+  font-size: 100px;
+    
+    
+}
+
+p {
+  
+  color:white;
+  
+  margin:20px;
+}
+
+*/
